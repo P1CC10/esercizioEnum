@@ -1,5 +1,5 @@
 enum TipoForma {
-        TRIANGOLO,
+        TRIANGOLO(),
         RETTANGOLO
     }
 
@@ -20,7 +20,6 @@ enum TipoForma {
         }
 
         public void calcolaArea() {
-            System.out.println("Calcolo dell'area per la forma di tipo " + tipo);
         }
 
     }
